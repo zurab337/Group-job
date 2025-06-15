@@ -58,3 +58,51 @@ body {
 }
 
 /* header end  */
+
+/* section1 start  */
+
+.section1 {
+  padding: 0px 84px;
+  margin-bottom: 73px;
+}
+
+.text {
+  background: url(./assets/background\ photo.png);
+  padding-top: 218px;
+  padding-left: 57px;
+  padding-bottom: 141px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.text h4 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text h1 {
+  font-size: 46px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.text span {
+  background: linear-gradient(90deg, #4ce0d7 43.06%, #8ba9f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 470px;
+}
+
+/* section1 end  */
