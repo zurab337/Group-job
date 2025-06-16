@@ -284,3 +284,137 @@ body {
 }
 
 /* fashion saction end */
+
+/* Tranding Started */
+
+.trending {
+  padding: 0 118px;
+  margin-bottom: 88.2px;
+}
+
+.trending h2 {
+  padding-left: 8px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 55.04px;
+}
+
+.trending-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trending-card {
+  width: max-content;
+  background-color: #FFFFFF;
+  box-shadow: 0px 6px 6px 0px #0000000D;
+  border-radius: 20px;
+
+}
+
+.trending-background {
+  background-image: url(./assets/pirvelitrendingphoto.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 20.67px 369.07px 219.83px 34.14px;
+  margin-bottom: 23.34px;
+}
+
+.trending-background a{
+  display: inline-block;
+  padding: 9.29px 49.96px 9.31px 49.86px;
+  background-color: #262626;
+  color: #FFFFFF;
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.trending-background a:hover{
+  transform: scale(1.2);
+}
+
+.profileinfo {
+  display: flex;
+  flex-direction: row;
+  padding-left: 26.26px;
+  align-items: center;
+  margin-bottom: 28.75px;
+}
+
+.profileinfo h4 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #BCBCBC;
+  padding-left: 28.07px;
+}
+
+.reina {
+  width: 169px;
+}
+
+.tdate {
+  margin-left: 83px;
+}
+
+.textabouther h3 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 34px;
+  height: 94px;
+  padding-bottom: 2px;
+  max-width: 400px;
+  color: #262626;
+}
+
+.textabouther p{
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 400px;
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+
+.trending-readmore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 36px;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 11px;
+  padding-left: 22px;
+}
+
+.rtext {
+  color: #4CE0D7;
+}
+
+.tsummer {
+  background-image: url(./assets/meoretrendingphoto.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 20.67px 369.07px 219.83px 34.14px;
+  margin-bottom: 23.34px;
+}
+
+.tsummer a{
+  display: inline-block;
+  padding: 9.29px 49.96px 9.31px 49.86px;
+  background-color: #262626;
+  color: #FFFFFF;
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.tsummer a:hover{
+  transform: scale(1.2);
+}
+
+/* Tranding Ended*/
