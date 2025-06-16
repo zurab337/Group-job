@@ -16,6 +16,8 @@ body {
     margin: 0 auto;
 }
 
+/* Topics started  */
+
 .topics {
     display: flex;
     flex-direction: column;
@@ -76,6 +78,8 @@ body {
 .pirveli-xazi {
     margin-bottom: 52.5px;
 }
+
+/* Topics ended  */
 
 /* header start  */
 
