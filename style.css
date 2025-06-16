@@ -170,3 +170,117 @@ body {
 }
 
 /* section1 end  */
+
+/* fashion saction */
+
+.fashion {
+  padding: 0 118px;
+  margin-top: 52.5px;
+}
+
+.fashion-section {
+  padding-bottom: 32px;
+  margin-bottom: 97px;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.fashion-background a {
+  display: inline-block;
+  padding: 10px 81px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 40px;
+  background: #262626;
+  transition: .3s;
+}
+
+.fashion-background a:hover {
+  background: #f25e5e;
+}
+
+.fashion-background {
+  padding: 23px 922px 299px 47px;
+  background: url(./assets/Mask\ group.png);
+  margin-bottom: 23px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.fashion-first {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  position: relative;
+  margin-bottom: 29px;
+  padding-left: 64px;
+}
+
+.mallory {
+  display: flex;
+  align-items: center;
+  gap: 133px;
+}
+
+.coming-in-hot {
+  position: absolute;
+  right: 90px;
+}
+
+.coming-in-hot h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 4px;
+  color: #f25e5e;
+}
+
+.mallory p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+.fashion-second {
+  padding: 0 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.fashion-second h2 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.fashion-second p {
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 640px;
+}
+
+.fashion-read-more {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-left: 64px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.fashion-read-more:hover {
+  transform: translate(10px);
+}
+
+.fashion-read-more p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #4ce0d7;
+}
+
+/* fashion saction end */
