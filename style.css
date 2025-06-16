@@ -424,7 +424,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 53.5px;
-  margin-left: 118px;
+  justify-content: center;
+  padding: 0 118px;
   margin-bottom: 69px;
 }
 
