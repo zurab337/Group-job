@@ -1,82 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #F9F9F9;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
 }
 
 .container {
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* Topics started  */
 
 .topics {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .topics h2 {
-    font-weight: 700;
-    font-size: 32px;
-    padding-left: 84px;
+  font-weight: 700;
+  font-size: 32px;
+  padding-left: 84px;
 }
 
 .assortments {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    padding-left: 83px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding-left: 83px;
 }
 
 .assortment {
-    width: 204px;
-    height: 291px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 87.5px;
+  width: 204px;
+  height: 291px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 87.5px;
 }
 
 .assortment img {
-    margin-bottom: 20px;
-    height: 100px;
+  margin-bottom: 20px;
+  height: 100px;
 }
 
 .assortment h3 {
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 29px;
 }
 
 .assortment a {
-    background-color: #4CE0D7;
-    padding: 10px 40.1px 9.12px 40px;
-    border-radius: 40px;
-    color: #262626;
-    font-weight: 700;
-    font-size: 12px;
-    transition: 0.3s;
+  background-color: #4ce0d7;
+  padding: 10px 40.1px 9.12px 40px;
+  border-radius: 40px;
+  color: #262626;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 0.3s;
 }
 
 .assortment a:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .pirveli-xazi {
-    margin-bottom: 52.5px;
+  margin-bottom: 52.5px;
 }
 
 /* Topics ended  */
@@ -194,7 +194,7 @@ body {
   font-weight: 700;
   border-radius: 40px;
   background: #262626;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .fashion-background a:hover {
@@ -307,10 +307,9 @@ body {
 
 .trending-card {
   width: max-content;
-  background-color: #FFFFFF;
-  box-shadow: 0px 6px 6px 0px #0000000D;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 6px 0px #0000000d;
   border-radius: 20px;
-
 }
 
 .trending-background {
@@ -322,18 +321,18 @@ body {
   margin-bottom: 23.34px;
 }
 
-.trending-background a{
+.trending-background a {
   display: inline-block;
   padding: 9.29px 49.96px 9.31px 49.86px;
   background-color: #262626;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 40px;
   font-size: 12px;
   font-weight: 700;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.trending-background a:hover{
+.trending-background a:hover {
   transform: scale(1.2);
 }
 
@@ -348,7 +347,7 @@ body {
 .profileinfo h4 {
   font-weight: 400;
   font-size: 14px;
-  color: #BCBCBC;
+  color: #bcbcbc;
   padding-left: 28.07px;
 }
 
@@ -370,7 +369,7 @@ body {
   color: #262626;
 }
 
-.textabouther p{
+.textabouther p {
   font-weight: 400;
   font-size: 16px;
   max-width: 400px;
@@ -390,7 +389,7 @@ body {
 }
 
 .rtext {
-  color: #4CE0D7;
+  color: #4ce0d7;
 }
 
 .tsummer {
@@ -402,19 +401,165 @@ body {
   margin-bottom: 23.34px;
 }
 
-.tsummer a{
+.tsummer a {
   display: inline-block;
   padding: 9.29px 49.96px 9.31px 49.86px;
   background-color: #262626;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 40px;
   font-size: 12px;
   font-weight: 700;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.tsummer a:hover{
+.tsummer a:hover {
   transform: scale(1.2);
 }
 
 /* Tranding Ended*/
+
+/* photos3start */
+
+.photos3cards {
+  display: flex;
+  flex-direction: column;
+  gap: 53.5px;
+  margin-left: 118px;
+  margin-bottom: 69px;
+}
+
+.photo3card {
+  box-sizing: border-box;
+  width: max-content;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 6px 0px #0000000D;
+  border-radius: 20px;
+}
+
+.mwsplit {
+  display: flex;
+  flex-direction: row;
+}
+
+.photoslink {
+  padding: 25.37px 337.55px 304.44px 34.14px;
+  background-image: url(./assets/photos1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.photoslink a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 9.42px 52.96px 9.17px 51.86px;
+  background-color: #262626;
+  border-radius: 40px;
+}
+
+
+.MAININFO { 
+  display: flex;
+  flex-direction: column;
+}
+
+.mwfirstline {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45.95px;
+  margin-top: 25.58px;
+  align-items: center;
+  gap: 16.86px;
+  margin-bottom: 35.66px;
+}
+
+.mwfirstline h2 {
+  font-size: 14px;
+  font-weight: 400;
+  width: 168px;
+  margin-right: 134px;
+  color: #BCBCBC;
+}
+
+.mwfirstline p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #BCBCBC;
+  width: 168px;
+  margin-right: 58px;
+}
+
+.mwsecondline {
+  margin-left: 45.49px;
+
+}
+
+.mwsecondline h1 { 
+  font-weight: 700;
+  font-size: 26px;
+  color: #262626;
+  max-width: 543px;
+  height: 94px;
+}
+
+.mwsecondline p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #262626;
+  max-width: 428.73px;
+  margin-bottom: 29px;
+  }
+
+  .mwthreline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-left: 36.49px;
+    }
+
+    .mwthreline a { 
+      color: #4CE0D7;
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .mwphoto2 {
+      background-image: url(./assets/photos2.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 20px;
+      padding: 25.37px 337.55px 304.44px 34.14px;
+    }
+
+    .mwphoto2 a {
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 9.3px 43.96px 9.3px 42.86px;
+      background-color: #262626;
+      border-radius: 40px;
+    }
+
+    .mwphoto3 {
+      background-image: url(./assets/photos3.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 20px;
+      padding: 25.37px 337.55px 304.44px 34.14px;
+    }
+
+    .mwphoto3 a {
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 11.04px 24.96px 10.56px 25.86px;
+      background-color: #262626;
+      border-radius: 40px;
+      width: 127px;
+      height: 18px;
+    }
+
+
+/* photos3 end */
