@@ -76,3 +76,93 @@ body {
 .pirveli-xazi {
     margin-bottom: 52.5px;
 }
+
+/* header start  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 84px 47px 84px;
+}
+
+.logo {
+  width: 234px;
+  height: 49px;
+}
+
+.nav nav {
+  display: flex;
+  gap: 1px;
+}
+
+.nav nav a {
+  padding: 8px 32px;
+  border-radius: 40px;
+  transition: 0.2s;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.nav nav a:hover {
+  background-color: #4ce0d7;
+  transform: scale(1.1);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+
+/* header end  */
+
+/* section1 start  */
+
+.section1 {
+  padding: 0px 84px;
+  margin-bottom: 73px;
+}
+
+.text {
+  background: url(./assets/background\ photo.png);
+  padding-top: 218px;
+  padding-left: 57px;
+  padding-bottom: 141px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.text h4 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text h1 {
+  font-size: 46px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.text span {
+  background: linear-gradient(90deg, #4ce0d7 43.06%, #8ba9f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 470px;
+}
+
+/* section1 end  */
