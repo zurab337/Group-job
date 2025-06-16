@@ -456,6 +456,8 @@ body {
   padding: 9.42px 52.96px 9.17px 51.86px;
   background-color: #262626;
   border-radius: 40px;
+  width: 71px;
+  height: 19px;
 }
 
 
@@ -540,6 +542,8 @@ body {
       padding: 9.3px 43.96px 9.3px 42.86px;
       background-color: #262626;
       border-radius: 40px;
+      width: 89px;
+      height: 19px;
     }
 
     .mwphoto3 {
@@ -554,7 +558,7 @@ body {
       color: #ffffff;
       font-size: 12px;
       font-weight: 700;
-      padding: 11.04px 24.96px 10.56px 25.86px;
+      padding: 13.04px 26.96px 12.56px 27.86px;
       background-color: #262626;
       border-radius: 40px;
       width: 127px;
