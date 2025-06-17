@@ -48,6 +48,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 87.5px;
+  box-shadow: 0px 6px 6px 0px #0000000D;
 }
 
 .assortment img {
@@ -76,6 +77,7 @@ body {
 }
 
 .pirveli-xazi {
+  width: 1267px;
   margin-bottom: 52.5px;
 }
 
